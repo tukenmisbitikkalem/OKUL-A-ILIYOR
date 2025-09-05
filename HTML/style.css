@@ -1,0 +1,106 @@
+body {
+      margin: 0;
+      height: 100vh;
+      overflow: hidden;
+      background-image: url(https://sdmntprukwest.oaiusercontent.com/files/00000000-b778-6243-91c8-aa082e4515ce/raw?se=2025-09-05T09%3A46%3A19Z&sp=r&sv=2024-08-04&sr=b&scid=99a8e2f8-12d0-598c-b735-420933004144&skoid=b928fb90-500a-412f-a661-1ece57a7c318&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-05T08%3A43%3A23Z&ske=2025-09-06T08%3A43%3A23Z&sks=b&skv=2024-08-04&sig=o%2BG2CeRQbt4rMk5amMCv5rCV/0smAUjoNR5o9PuJvls%3D);
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    .random-img {
+      border-style: solid;
+      position: absolute;
+      width: 185px; /* BOYUT */
+      height: 185px;
+      object-fit: cover;
+      border-radius: 19px;
+      border-width: 11px;
+      border: #011c40, solid;
+      box-shadow: 0 0 8px rgba(0,0,0,0.3);
+      transition: opacity 0.5s ease;
+    }
+    h1 {
+      margin-bottom: 30px;
+      color: #011c40;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #countdown {
+      display: flex;
+      gap: 15px;
+    }
+    .box {
+      background: #f6fafd;
+      padding: 21px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      min-width: 80px;
+      border-width: 5px;
+      border-style: solid;
+    }
+    
+    /*KUTUCUK AAAAAAAAAAAAAA */
+
+    #box1 {border-color: #011c40; color: #011c40}
+    #box2 {border-color: #023859; color: #023859;}
+    #box3 {border-color: #26658c; color: #26658c;}
+    #box4 {border-color: #54acbf; color: #54acbf;}
+
+    .box span {
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+
+    .number {
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    #days{color:#011c40;}
+    #hours{color:#023859;}
+    #minutes{color:#26658c;}
+    #seconds{color:#54acbf};
+    
+
+
+
+    .label {
+      font-size: 0.9em;
+      color: #777;
+      margin-top: 5px;
+      text-transform: uppercase;
+    }
+    .progress-container {
+        margin-top: 50px;
+        margin-left: 900px;
+        margin-right: 900px;
+        width: 90%;
+        max-width: 580px;
+        background: #f6fafd;
+        border-radius: 25px;
+        height: 40px;
+        overflow: hidden;
+        border-color: #011c40;
+    }
+    .progress-bar {
+        height: 100%;
+        width: 0%;
+        background: linear-gradient(90deg, #27374a, #455370);
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #f6fafd;
+        line-height: 30px;
+        border-radius: 20px 0 0 20px;
+        transition: width 0.5 ease;
+        border-color: #461d3a;
+    }
+    
+    
